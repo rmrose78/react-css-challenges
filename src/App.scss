@@ -1,0 +1,25 @@
+body {
+  font-size: 16px;
+}
+
+.sec1__box {
+  background: linear-gradient(120deg, tomato, purple);
+  border: solid 2px black;
+  color: white;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[class^="sec1__box"] {
+  width: 10vw;
+  height: 10vw;
+  margin: 2rem;
+}
+
+.sec1__div-ctr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,40 @@
+#section__2 {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+  }
+}
+
+[class^="sec2__"] {
+  box-shadow: rgba(0, 0, 0, 0.34) 0px 3px 8px;
+}
+
+.sec2__box {
+  height: 30vh;
+  width: 30vh;
+  border: solid 2px black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.sec2__input[type="text"] {
+  width: 30vh;
+  height: 3vh;
+  border: solid 2px black;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bold;
+  padding-left: 5px;
+}
